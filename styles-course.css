@@ -1,0 +1,50 @@
+html,body{
+    height:120% ;
+    max-width: 100%;
+    margin:0px;
+    padding:0px;
+    background-image: absolute;
+    background-repeat: no-repeat;
+    }
+    
+    /* det under er til at lave linear gradiant baggrund på forsiden */
+    .linear {
+      position: relative;
+      background-image: linear-gradient(#fa0505, #05c9fa);
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    
+    }
+    
+    
+
+    
+
+    /* Dette under er box menuen */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        li {
+          float: left;
+        }
+        li a {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 25px 25px;
+          text-decoration: none;
+        }
+        li a:hover {
+           background-color: #636363;
+        }
+        .active {
+           background-color: #545454;
+           border: 1px solid rgb(0, 0, 0);
+        }
+    
